@@ -17,4 +17,16 @@ describe("fizzBuzz", function() {
       expect(fizzbuzz.play(5)).toEqual('buzz')
     });
   });
+
+  describe('multiples of both 3 and 5', function(){
+    it('returns fizzbuzz when divisible by both 3 and 5', function() {
+      expect(fizzbuzz.play(15)).toEqual('fizzbuzz')
+    });
+  });
+
+  describe('returns number if not divisible by 3 or 5', function(){
+    it('returns the number', function(){
+      expect(fizzbuzz.play(2)).toEqual(2)
+    });
+  });
 });
