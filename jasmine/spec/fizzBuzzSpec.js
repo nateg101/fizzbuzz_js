@@ -11,4 +11,10 @@ describe("fizzBuzz", function() {
       expect(fizzbuzz.play(3)).toEqual('fizz')
      });
   });
+
+  describe('multiples of 5', function(){
+    it('returns buzz when divisible by 5', function() {
+      expect(fizzbuzz.play(5)).toEqual('buzz')
+    });
+  });
 });
