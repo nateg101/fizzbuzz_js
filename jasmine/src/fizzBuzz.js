@@ -1,5 +1,5 @@
 function fizzBuzz() {
-
+}
   fizzBuzz.prototype.play = function(number) {
     if (number % 3 === 0 && number % 5 === 0) {
       return 'fizzbuzz';
@@ -12,4 +12,11 @@ function fizzBuzz() {
       return number;
     }
   }
-};
+
+
+  // var fizzBuzz = new FizzBuzz();
+  //
+  // for (var i = 1; i <= 100; i++) {
+  //   console.log(fizzBuzz.play(i));
+  // }
+  // Above is to print out numbers in the console.
